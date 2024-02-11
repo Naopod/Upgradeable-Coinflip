@@ -10,7 +10,7 @@ error SeedTooShort();
 /// @title Coinflip 10 in a Row
 /// @author Tianchan Dong
 /// @notice Contract used as part of the course Solidity and Smart Contract development
-contract Coinflip is Initializable, OwnableUpgradeable, UUPSUpgradeable{
+contract CoinflipV2 is Initializable, OwnableUpgradeable, UUPSUpgradeable{
     
     string public seed;
 
